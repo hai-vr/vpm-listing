@@ -27,6 +27,7 @@
         "hai-vr/animation-viewer-vcc",
         "hai-vr/blendshape-viewer-vcc",
         "hai-vr/property-finder",
-        "hai-vr/lightbox-viewer"
+        "hai-vr/lightbox-viewer",
+        "hai-vr/fuck-osc-config"
     ]
 }
