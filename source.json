@@ -30,6 +30,7 @@
         "hai-vr/fuck-osc-config",
         "hai-vr/prefabulous-avatar",
         "hai-vr/combo-gesture-expressions-av3",
-        "hai-vr/convert-combogesture-to-faceemo"
+        "hai-vr/convert-combogesture-to-faceemo",
+        "hai-vr/denormalized-avatar-exporter"
     ]
 }
