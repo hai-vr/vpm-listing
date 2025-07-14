@@ -1,0 +1,29 @@
+name: Build and Publish Listing
+
+on: 
+  workflow_dispatch:
+  push:
+    branches: main
+    paths: input.json
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-listing:
+    name: build-listing
+    uses: hai-vr/pristine-listing-action/.github/workflows/build-and-publish.yml@main
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    with:
+      devonly: true
+    secrets:
+      gh_token: ${{ secrets.GITHUB_TOKEN }}
