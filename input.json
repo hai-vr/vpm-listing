@@ -40,7 +40,6 @@
         { "repository" : "hai-vr/resilience-toolkit" },
         { "repository" : "hai-vr/vcc-dependencies-for-vixen" },
         { "repository" : "hai-vr/visual-expressions-editor-vcc" },
-        { "repository" : "hai-vr/hvr-basis-avataroptimizer", "mode" : "ExcessiveAlways" },
-        { "repository" : "hai-vr/no-thanks" }
+        { "repository" : "hai-vr/hvr-basis-avataroptimizer", "mode" : "ExcessiveAlways" }
     ]
 }
